@@ -1,4 +1,4 @@
-# ⏱️ Productivity Time Manager
+# ⏱️ prodigy Pulse (Productivity Time Manager)
 
 A modern, browser-based **time management and productivity suite** built with HTML, CSS, and JavaScript.
 It combines multiple tools like Stopwatch, Pomodoro Timer, Task Tracking, and Analytics into one clean dashboard experience.
