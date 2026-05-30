@@ -1,0 +1,18 @@
+{
+  "name": "Prodigy Pulse",
+  "short_name": "PulseOS",
+  "description": "A productivity and time-management dashboard with timers, tasks, habits, analytics, and gamification.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

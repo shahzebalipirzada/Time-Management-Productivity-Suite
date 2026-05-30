@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Prodigy Pulse icon">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#68d5ff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#03101f" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#08111f"/>
+  <path d="M128 110h120c70 0 126 49 126 110s-56 110-126 110h-36v72H128V110zm84 152h32c30 0 52-16 52-42s-22-42-52-42h-32v84z" fill="url(#g)" filter="url(#shadow)"/>
+  <circle cx="370" cy="364" r="54" fill="#35d07f" opacity="0.85"/>
+  <circle cx="370" cy="364" r="24" fill="#08111f" opacity="0.95"/>
+</svg>
