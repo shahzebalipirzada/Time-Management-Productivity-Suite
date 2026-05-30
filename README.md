@@ -1,49 +1,125 @@
-# Prodigy Pulse
+# ⏱️ Productivity Time Manager
 
-Prodigy Pulse is a productivity and time-management dashboard built with vanilla HTML, CSS, and JavaScript. It turns a basic stopwatch into a polished single-page productivity OS with timers, task planning, habit tracking, analytics, journaling, and local persistence.
+A modern, browser-based **time management and productivity suite** built with HTML, CSS, and JavaScript.
+It combines multiple tools like Stopwatch, Pomodoro Timer, Task Tracking, and Analytics into one clean dashboard experience.
 
-## Highlights
+---
 
-- Advanced stopwatch with laps, fastest/slowest split tracking, exports, keyboard shortcuts, and focus mode.
-- Pomodoro timer with configurable work and break durations, automatic cycle switching, and session history.
-- Multiple countdown timers and recurring alarms with snooze support.
-- Task manager with priorities, due dates, progress controls, and drag-and-drop ordering.
-- Habit tracker with streaks and a monthly calendar view.
-- Focus session logging, goals, productivity insights, analytics charts, and gamified XP/levels.
-- Dark and light themes, accent customization, responsive layout, localStorage persistence, import/export, and offline-ready PWA support.
+## 🚀 Features
 
-## Run locally
+### ⏱️ Advanced Stopwatch
 
-Because this is a static app, run it through any local web server:
+* Start, pause, resume, and reset
+* Lap recording with statistics
+* Fastest and slowest lap detection
+* Millisecond precision
+* Keyboard shortcuts
+* Export lap data (CSV/JSON)
+
+### 🍅 Pomodoro Timer
+
+* Custom work/break durations
+* Automatic session cycles
+* Session counter tracking
+* Notifications and sound alerts
+* Focus-based workflow system
+
+### ⏲️ Countdown Timer
+
+* Multiple timers support
+* Custom labels for each timer
+* Preset configurations
+* Completion alerts
+
+### 📊 Productivity Dashboard
+
+* Daily & weekly activity tracking
+* Focus session history
+* Productivity insights
+* Time distribution overview
+
+### ✅ Task Manager
+
+* Create and manage tasks
+* Priority levels
+* Due dates
+* Track completion status
+
+### 🎯 Habit Tracker
+
+* Daily habit tracking
+* Streak system
+* Calendar-based progress view
+
+---
+
+## 🎨 UI/UX Highlights
+
+* Clean, **production-grade dashboard design**
+* Fully responsive (mobile + desktop)
+* Dark / Light mode support
+* Minimal and distraction-free layout
+* Smooth animations & transitions
+* Accessibility-friendly interface
+* No clutter, no unnecessary visual noise
+
+---
+
+## 🧠 Design Philosophy
+
+This project is built with a **real-world SaaS dashboard mindset**, focusing on:
+
+* Usability over decoration
+* Clear visual hierarchy
+* Consistent spacing system
+* Professional layout structure
+* No overlapping or broken UI behavior
+
+Inspired by modern tools like Linear, Notion, and GitHub dashboards.
+
+---
+
+## ⚙️ Tech Stack
+
+* HTML5
+* CSS3 (Flexbox / Grid)
+* Vanilla JavaScript (ES6+)
+* LocalStorage for persistence
+
+---
+
+## 📦 Installation
 
 ```bash
-python3 -m http.server 8000
+# Clone the repository
+git clone https://github.com/your-username/productivity-time-manager.git
+
+# Open the project folder
+cd productivity-time-manager
+
+# Run with live server or open index.html
 ```
 
-Open `http://localhost:8000` in your browser.
+---
 
-## Keyboard Shortcuts
+## 💡 Future Improvements
 
-- `Space`: Start or pause the stopwatch
-- `L`: Record a lap
-- `R`: Reset the stopwatch
-- `P`: Toggle Pomodoro
-- `F`: Toggle focus mode
-- `/`: Focus the search box
-- `?`: Open the shortcuts modal
-- `Escape`: Close modals
+* PWA support (installable app)
+* Cloud sync
+* AI-based productivity insights
+* Team collaboration mode
+* Mobile app version
+* Advanced analytics charts
 
-## Data Management
+---
 
-- Use the top bar actions to export or import your full backup as JSON.
-- Lap history can be exported as CSV.
-- Data is stored in `localStorage` and can be reset from the top bar.
 
-## Project Structure
+## 🧑‍💻 Author
 
-- `index.html` - App shell and metadata
-- `style.css` - Full dashboard styling
-- `script.js` - Application state, rendering, and interactions
-- `manifest.json` - PWA manifest
-- `service-worker.js` - Offline caching
-- `icon.svg` - App icon
+Built by a developer focused on creating clean, practical, and production-ready web applications.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
